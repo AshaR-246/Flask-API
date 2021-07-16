@@ -25,7 +25,7 @@ tasks=[
         ]
     }
 ]
-@app.rout("/")
+@app.route("/")
 def hello_world():
     return "Contact List!"
 
